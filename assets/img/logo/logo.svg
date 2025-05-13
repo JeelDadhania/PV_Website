@@ -1,93 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 115.44 26">
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="117" height="28" viewBox="0 0 117 28">
   <defs>
-    <style>
-      .cls-1 {
-        font-size: 10.65px;
-      }
-
-      .cls-2 {
-        letter-spacing: .15em;
-      }
-
-      .cls-3 {
-        letter-spacing: .4em;
-      }
-
-      .cls-4 {
-        letter-spacing: .13em;
-      }
-
-      .cls-5 {
-        letter-spacing: .17em;
-      }
-
-      .cls-6, .cls-7 {
-        fill: #798178;
-      }
-
-      .cls-8 {
-        letter-spacing: .43em;
-      }
-
-      .cls-9 {
-        letter-spacing: .13em;
-      }
-
-      .cls-10 {
-        letter-spacing: .46em;
-      }
-
-      .cls-11 {
-        letter-spacing: .13em;
-      }
-
-      .cls-12 {
-        letter-spacing: .15em;
-      }
-
-      .cls-13 {
-        font-family: AllrounderMonumentTest-Medium, 'Allrounder Monument Test';
-        font-weight: 500;
-      }
-
-      .cls-13, .cls-14 {
-        fill: #c2beb5;
-      }
-
-      .cls-15 {
-        letter-spacing: .47em;
-      }
-
-      .cls-16 {
-        letter-spacing: .44em;
-      }
-
-      .cls-17 {
-        font-size: 11.94px;
-      }
-
-      .cls-7 {
-        filter: url(#drop-shadow-1);
-      }
-    </style>
-    <filter id="drop-shadow-1" x="15.66" y="9.98" width="10.52" height="8.66" filterUnits="userSpaceOnUse">
+    <filter id="drop-shadow-1" x="14.19" y="9.92" width="10.59" height="8.72" filterUnits="userSpaceOnUse">
       <feOffset dx=".2" dy="-.5"/>
       <feGaussianBlur result="blur" stdDeviation="1"/>
-      <feFlood flood-color="#000" flood-opacity=".75"/>
+      <feFlood flood-color="#010101" flood-opacity=".75"/>
       <feComposite in2="blur" operator="in"/>
       <feComposite in="SourceGraphic"/>
     </filter>
   </defs>
   <g>
     <g>
-      <polygon class="cls-6" points="8.54 9.07 2.62 .79 13.56 .79 8.54 9.07"/>
-      <polygon class="cls-14" points="19.85 9.35 14.12 1.33 14.44 .79 24.69 .79 19.85 9.35"/>
-      <polygon class="cls-14" points="26.09 18.33 20.34 10.26 25.7 .79 36.13 .79 26.09 18.33"/>
-      <polygon class="cls-6" points="14.9 18.04 9.09 10 14.12 1.33 19.85 9.35 14.9 18.04"/>
-      <polygon class="cls-14" points="11.9 23.21 1.56 23.21 9.09 10 14.9 18.04 11.9 23.21"/>
+      <polygon points="7.02 9 1.06 .67 12.08 .67 7.02 9" style="fill: #798278;"/>
+      <polygon points="18.42 9.28 12.64 1.21 12.97 .67 23.29 .67 18.42 9.28" style="fill: #c3bfb6;"/>
+      <polygon points="24.7 18.33 18.9 10.19 24.3 .67 34.8 .67 24.7 18.33" style="fill: #c3bfb6;"/>
+      <polygon points="13.43 18.03 7.57 9.94 12.64 1.21 18.42 9.28 13.43 18.03" style="fill: #798278;"/>
+      <polygon points="10.41 23.23 0 23.23 7.57 9.94 13.43 18.03 10.41 23.23" style="fill: #c3bfb6;"/>
     </g>
-    <path class="cls-7" d="M20.48,9.98l-4.82,8.55,9.88.11c.52.01.82-.57.52-.99l-5.58-7.67Z"/>
+    <path d="M19.04,9.92l-4.85,8.61,9.94.11c.52.01.83-.58.53-1l-5.62-7.72Z" style="fill: #798278; filter: url(#drop-shadow-1);"/>
   </g>
-  <text class="cls-13" transform="translate(40.96 9.29)"><tspan class="cls-1"><tspan class="cls-2" x="0" y="0">P</tspan><tspan class="cls-5" x="8.22" y="0">R</tspan><tspan class="cls-12" x="18.05" y="0">EC</tspan><tspan class="cls-4" x="35.78" y="0">I</tspan><tspan class="cls-12" x="41.39" y="0">S</tspan><tspan class="cls-11" x="48.97" y="0">I</tspan><tspan class="cls-9" x="54.61" y="0">O</tspan><tspan class="cls-2" x="65.34" y="0">N</tspan></tspan><tspan class="cls-17"><tspan class="cls-15" x="0" y="12.18">V</tspan><tspan class="cls-16" x="14.93" y="12.18">I</tspan><tspan class="cls-8" x="24.98" y="12.18">S</tspan><tspan class="cls-3" x="36.85" y="12.18">U</tspan><tspan class="cls-10" x="51.48" y="12.18">AL</tspan></tspan></text>
+  <text transform="translate(39.67 9.22)" style="fill: #c3bfb6; font-family: AllrounderMonumentTest-Medium, &apos;Allrounder Monument Test&apos;; font-weight: 500;"><tspan style="font-size: 10.72px;"><tspan x="0" y="0" style="letter-spacing: .15em;">P</tspan><tspan x="8.27" y="0" style="letter-spacing: .17em;">R</tspan><tspan x="18.18" y="0" style="letter-spacing: .15em;">EC</tspan><tspan x="36.02" y="0" style="letter-spacing: .13em;">I</tspan><tspan x="41.67" y="0" style="letter-spacing: .15em;">S</tspan><tspan x="49.3" y="0" style="letter-spacing: .13em;">I</tspan><tspan x="54.99" y="0" style="letter-spacing: .13em;">O</tspan><tspan x="65.79" y="0" style="letter-spacing: .15em;">N</tspan></tspan><tspan style="font-size: 12.02px;"><tspan x="0" y="12.26" style="letter-spacing: .47em;">V</tspan><tspan x="15.03" y="12.26" style="letter-spacing: .44em;">I</tspan><tspan x="25.15" y="12.26" style="letter-spacing: .43em;">S</tspan><tspan x="37.1" y="12.26" style="letter-spacing: .4em;">U</tspan><tspan x="51.83" y="12.26" style="letter-spacing: .47em;">AL</tspan></tspan></text>
 </svg>
