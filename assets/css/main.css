@@ -10731,7 +10731,7 @@ abbr[title] {
   .ds-service .xb-item--img {
     position: absolute;
     right: -134px;
-    bottom: -40px;
+    bottom: 20px;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
     transition: 0.3s; }
@@ -10754,7 +10754,7 @@ abbr[title] {
     top: 29px; }
   .ds-service .xb-item--img3 {
     right: -60px;
-    top: 57px; }
+    top: 40px; }
   .ds-service .xb-item--img4 {
     right: -39px;
     top: 70px; }
