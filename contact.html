@@ -27,6 +27,47 @@
 
 <body>
 
+        <script>
+        // Disable right-click
+        document.addEventListener("contextmenu", function (event) {
+            // alert("Right-click is disabled on this page.");
+            event.preventDefault();
+        });
+    
+        // Disable common dev tool shortcuts
+    document.addEventListener("keydown", function (event) {
+        // F12
+        if (event.keyCode === 123) {
+            event.preventDefault();
+        }
+
+        // Ctrl+Shift+I / J / C
+        if (event.ctrlKey && event.shiftKey && (event.key === 'I' || event.key === 'i' || event.key === 'J' || event.key === 'j' || event.key === 'C' || event.key === 'c')) {
+            event.preventDefault();
+        }
+
+        // Ctrl+U (View Source)
+        if (event.ctrlKey && (event.key === 'U' || event.key === 'u')) {
+            event.preventDefault();
+        }
+
+        // Ctrl+S (Save Page)
+        if (event.ctrlKey && (event.key === 'S' || event.key === 's')) {
+            event.preventDefault();
+        }
+
+        // Ctrl+Shift+K (Firefox Dev Console)
+        if (event.ctrlKey && event.shiftKey && (event.key === 'K' || event.key === 'k')) {
+            event.preventDefault();
+        }
+
+        // Ctrl+Shift+M (Responsive Design Mode)
+        if (event.ctrlKey && event.shiftKey && (event.key === 'M' || event.key === 'm')) {
+            event.preventDefault();
+        }
+    });
+    </script>
+    
     <!-- backtotop - start -->
     <div class="xb-backtotop">
         <a href="#" class="scroll">
