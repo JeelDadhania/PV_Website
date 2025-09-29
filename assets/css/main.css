@@ -47,7 +47,7 @@
 :root {
   --font-body: 'Outfit', sans-serif;
   --font-heading: 'Marcellus', serif;
-  --color-primary: #6FBC64;
+  --color-primary: #d88327;
   --color-heading: #131217;
   --xb-track-color: #16171B;
   --color-dark: #0F172A;
@@ -2565,7 +2565,7 @@ body[data-aos-easing=ease] [data-aos] {
   margin-left: 27px;
   padding-right: 45px; }
 .header-style-two .xb-header__top {
-  border-bottom: 1px solid #FFFFFF0F;
+  border-bottom: 1px solid var(--color-primary)0F;
   padding: 14px 0;
   margin-bottom: 10px; }
   @media (max-width: 767px) {
@@ -2574,7 +2574,7 @@ body[data-aos-easing=ease] [data-aos] {
   .header-style-two .xb-header__top .top-list li {
     font-size: 14px;
     font-weight: 600;
-    color: #FFFFFF;
+    color: var(--color-primary);
     letter-spacing: -0.21px;
     text-transform: uppercase; }
 .header-style-two .xb-header__midle {
@@ -2591,7 +2591,7 @@ body[data-aos-easing=ease] [data-aos] {
     display: inline-block;
     margin-left: 9px; }
     .header-style-two .xb-header__midle li a {
-      color: #FFFFFF;
+      color: var(--color-primary);
       font-size: 14px;
       font-weight: 600;
       letter-spacing: 2.94px;
@@ -3049,7 +3049,7 @@ body[data-aos-easing=ease] [data-aos] {
   background-color: #fff; }
 .section-title--white .sub-title,
 .section-title--white .title {
-  color: #FFFFFF;
+  color: var(--color-primary);
   text-transform: uppercase; }
 .section-title--white .number {
   background: var(--color-primary);
@@ -3057,7 +3057,7 @@ body[data-aos-easing=ease] [data-aos] {
 .section-title--size .title {
   text-transform: uppercase; }
 .section-title--size .number {
-  background: #FFFFFF;
+  background: var(--color-primary);
   color: var(--color-black); }
 .section-title--border .title {
   position: relative; }
@@ -3507,7 +3507,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
       .social-icon li:not(:last-child) {
         margin-right: 20px; } }
   .social-icon li a {
-    color: #FFFFFF;
+    color: var(--color-primary);
     font-size: 24px;
     height: 64px;
     width: 64px;
@@ -4001,7 +4001,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
 .hero__content-two .xb-item--counter .inner .holder .content {
   font-size: 16px;
   font-weight: 700;
-  color: #FFFFFF;
+  color: var(--color-primary);
   text-transform: uppercase;
   line-height: 1; }
 .hero .hero-right_site {
@@ -5868,7 +5868,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
     text-transform: uppercase;
     font-size: 20px; }
     .xb-testimonial-wrapper .xb-item--title span {
-      color: #838383;
+      color: var(--color-primary);
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
@@ -5975,7 +5975,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
   letter-spacing: -0.2px;
   text-transform: uppercase; }
 .xb-testimonial .xb-item--desig {
-  color: #838383;
+  color: var(--color-primary);
   font-family: var(--font-heading);
   line-height: 24px;
   letter-spacing: -0.16px;
@@ -7008,7 +7008,7 @@ blockquote {
   margin-right: 20px;
   position: relative; }
 .xb-experience .xb-item--title {
-  color: #FFFFFF;
+  color: var(--color-primary);
   margin-bottom: 16px;
   display: inline-block; }
 .xb-experience .xb-item--persantage_box {
@@ -7024,7 +7024,7 @@ blockquote {
   -ms-transform: translateX(-50%);
   transform: translateX(-50%);
   font-size: 24px;
-  color: #FFFFFF;
+  color: var(--color-primary);
   font-family: var(--font-body); }
 
 /*----------------------------------------*/
@@ -8212,7 +8212,7 @@ blockquote {
 
 .woocommerce-cart .shipping-calculator-form button.button {
   background-color: #000 !important;
-  color: #ffffff !important;
+  color: var(--color-primary) !important;
   height: 45px;
   line-height: 45px;
   padding: 1px 27px 0;
@@ -10179,7 +10179,7 @@ abbr[title] {
   .dm-about--wrapper .content {
     font-size: 16px;
     font-weight: 700;
-    color: #FFFFFF;
+    color: var(--color-primary);
     text-transform: uppercase;
     line-height: 1; }
 .dm-about--content {
@@ -10315,7 +10315,7 @@ abbr[title] {
 .dm-testimonial--avater .title {
   font-size: 16px;
   line-height: 24px;
-  color: #838383;
+  color: var(--color-primary);
   text-transform: uppercase; }
 
 .dm-testimonial-slider {
@@ -10329,7 +10329,7 @@ abbr[title] {
   height: 12px;
   display: inline-block;
   border-radius: 50%;
-  background: #FFFFFF;
+  background: var(--color-primary);
   opacity: .3;
   margin-right: 10px;
   position: relative;
@@ -10448,7 +10448,7 @@ abbr[title] {
     letter-spacing: 1.3px;
     margin-bottom: 20px; }
   .dm-footer-info .content {
-    color: #FFFFFF;
+    color: var(--color-primary);
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
@@ -10895,7 +10895,7 @@ abbr[title] {
   .ds-counter .holder .content {
     font-size: 16px;
     font-weight: 700;
-    color: #FFFFFF;
+    color: var(--color-primary);
     text-transform: uppercase;
     line-height: 1; }
 
@@ -10991,7 +10991,7 @@ abbr[title] {
         border-radius: 50px;
         content: '\f00c';
         font-family: "Font Awesome 5 Pro";
-        background: #FFFFFF;
+        background: var(--color-primary);
         top: 50%;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
@@ -11136,7 +11136,7 @@ abbr[title] {
     -o-transition: 0.3s;
     transition: 0.3s; }
     .ds-testimonial .xb-item--name span {
-      color: #838383;
+      color: var(--color-primary);
       font-size: 16px; }
 
 .ds-blog:hover .xb-item--img img {
@@ -12191,7 +12191,7 @@ abbr[title] {
       display: inline-block;
       margin-right: 10px; }
       .xb-footer .xb-item--social li a {
-        color: #FFFFFF;
+        color: var(--color-primary);
         font-size: 22px;
         font-weight: 400;
         text-transform: uppercase;
@@ -12204,7 +12204,7 @@ abbr[title] {
           text-decoration: underline;
           color: var(--color-primary); }
   .xb-footer .xb-item--content {
-    color: #FFFFFF;
+    color: var(--color-primary);
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
@@ -12260,7 +12260,7 @@ abbr[title] {
     font-size: 14px;
     font-weight: 500;
     line-height: 30px;
-    color: #FFFFFF;
+    color: var(--color-primary);
     list-style: none; }
 
 .xb-footer-two {

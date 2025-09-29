@@ -907,7 +907,7 @@ header();
 	$('.popup-image').magnificPopup({
 		type: 'image',
 		gallery: {
-			enabled: true
+			enabled: false
 		}
 	});
 	$('.popup-video').magnificPopup({
