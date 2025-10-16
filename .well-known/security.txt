@@ -1,0 +1,4 @@
+# Security.txt file for security policy disclosure
+Contact: mailto:support@precisionvisual.in
+Preferred-Languages: en
+Canonical: https://precisionvisual.in/.well-known/security.txt

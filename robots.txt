@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://precisionvisual.in/sitemap.xml
+
+# Crawl-delay
+Crawl-delay: 1
+
+# Disallow development files
+Disallow: /Not_In_Use/
+Disallow: /.git/
+Disallow: /.well-known/
+Disallow: /assets/scss/
+
+# Host directive (helps search engines understand canonical domain)
+Host: https://precisionvisual.in
